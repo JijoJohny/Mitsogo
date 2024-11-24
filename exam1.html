@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sample Form</h1>
+    <form action="www.youtube.com" method="POST">
+        <label for="username">Enter Username</label><br>
+        <input type="text" name="username" maxlength="25">
+        <br>
+
+        <label for="password">Enter the Password</label><br>
+        <input type="password" name="password" maxlength="20"><br>
+
+        <caption><strong>Select your Gender</strong></caption><br>
+        <label><input type="radio" name="gender" value="male">Male</label><br>
+        <label><input type="radio" name="gender" value="female">Female</label><br>
+        
+        <caption><strong>Select your Hobbies</strong></caption><br>
+            <label><input type="checkbox" name="checkbox" value="reading">Reading</label><br>
+            <label><input type="checkbox" name="checkbox" value="sports">Sports</label><br>
+            <label><input type="checkbox" name="checkbox" value="music">Music</label><br>
+
+        <caption><strong>Select your Country</strong></caption><br>
+            <select id=" country" name="country" size="2">
+                <option value="usa">Usa</option>
+                <option value="africa">Africa</option>
+                <option value="asia">Asia</option>
+            </select>
+        
+            <br>
+            <br>
+        <input type="submit" value="Submit">
+        <br>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
